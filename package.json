@@ -1,0 +1,14 @@
+{
+  "name": "theverycynicalbot",
+  "version": "0.0.1",
+  "description": "multi-function Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Corbin McLeod (Ice)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
