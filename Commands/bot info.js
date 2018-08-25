@@ -10,8 +10,8 @@ module.exports.run = async (bot, message, args) =>{
     .setThumbnail(bicon)
     .addField("Bot Name", bot.user.username)
     .addField("Version", versioncontrol.version)
-    .addField("Creator", "Cynical's Dev Team")
-    .addField("Help?", "!help");
+    .addField("Creator", "Ice, Kaveenieweenie, and DocStrix")
+    .addField("Need Help?", ";;help");
 
     return message.channel.send(botembed);
 
