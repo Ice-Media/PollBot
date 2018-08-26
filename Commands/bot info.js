@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) =>{
     .addField("Bot Name", bot.user.username)
     .addField("Version", versioncontrol.version)
     .addField("Creator", "Ice, Kaveenieweenie, and DocStrix")
-    .addField("Need Help?", ";;help");
+    .addField("Need Help?", "help");
 
     return message.channel.send(botembed);
 
