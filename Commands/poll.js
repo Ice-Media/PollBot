@@ -4,7 +4,9 @@ module.exports.run = async (bot, message, args) => {
 
   let question = args.slice(0).join(" ");
 
-  if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.channel.send("Permission Required: Manage Messages");
+  if(!message.member.roles.some(r=>["PollMaster","HelperPollBot"].includes(r.name))) {
+    return message.reply("Sorry, you either don't have the PollMaster roll, or it doesn't exist on this server!");
+}
   if (args.length === 0)
   return message.reply('**Invalid Format:** `!Poll <Question>`')
 
