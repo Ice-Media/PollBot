@@ -1,0 +1,16 @@
+Addrole - adds any role a person requests that is below the bots current role.
+admhelp - Displays administrative commands
+ban - bans someone (use: ;;ban @person <insert reason>) Requires incidents channel to log
+bot info - Displays information about the bot
+clear - clears chat messages by a set amount
+colors - displays list of colors (has to be set up)
+echo - will send a message via the bot from one channel to another (use: ;;echo #channel <insert message>)
+help - displays normal commands for use
+kick - kicks a user (Use: ;;kick @person <insert reason>) Requires #incidents channel to log
+poll - creates a poll for people to vote on
+removerole - Removes a role from a person (Role must be below the bot)
+say - echos an exact message in that channel
+serverinfo - displays information about the server
+sysinfo - displays information about the system the bot is running on
+test - a test command
+userinfo - displays information about the current user.

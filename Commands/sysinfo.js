@@ -12,7 +12,7 @@ let sinfo = new Discord.RichEmbed()
 .addField("PCIe Slot #1", "nVidia GeForce GTX Titan Xp")
 .addField("PCIe Slot #2", "nVidia GeForce GTX Titan Xp")
 .addField("PCIe Slot #3", "nVidia GeForce GTX Titan Xp")
-.addField("PCIe Slot #5", "Intel I350-AM2 Ethernet Controller");
+.addField("PCIe Slot #4", "Intel I350-AM2 Ethernet Controller");
 
 return message.channel.send(sinfo);
 
