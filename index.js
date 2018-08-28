@@ -55,7 +55,7 @@ bot.on("message", message => {
     .setColor(purple)
     .addField("New Level", curlevel + 1);
 
-    message.channel.send(lvlup).then(msg => {msg.delete(5000)});
+    message.channel.send(lvlup).then(msg => {msg.delete(7000)});
   }
   fs.writeFile("./xp.json", JSON.stringify(xp), (err) =>{
     if(err) console.log(err)

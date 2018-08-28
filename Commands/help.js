@@ -8,7 +8,7 @@ let helpembed = new Discord.RichEmbed()
 .addField("botinfo", "Displays information about this bot.")
 .addField("serverinfo", "Displays information about the server.")
 .addField("For Administrative Commands:", "Use admhelp")
-.addField("addrole", "Give mentioned person a role from the list of colors.")
+.addField("addrole", "Gives mentioned person a role.")
 .addField("removerole", "Does the opposite of !addrole.")
 .addField("userinfo", "Gives information about the user and their roles.")
 
