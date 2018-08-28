@@ -13,13 +13,13 @@ module.exports.run = async (bot, message, args) => {
 }
   let curxp = xp[message.author.id].xp;
   let curlevel = xp[message.author.id].level;
-  let nxtLvlXp = curlvl * 300;
+  let nxtLvlXp = curlevel * 300;
   let difference = nxtLvlXp - curxp
 
   let lvlEmbed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor(purple)
-  .addField("Level", curlvl, true)
+  .addField("Level", curlevel, true)
   .addField("XP", curxp, true)
   .setFooter(`${difference} XP till level up`, message.author.displayAvatarURL)
 
